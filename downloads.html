@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads - Durga Gaha Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                 <i class="fas fa-chalkboard-user"></i>
+                <span>Durga Gaha</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">
+                        <i class="fas fa-code"></i> Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i> Contact
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="downloads.html" class="nav-link active">
+                        <i class="fas fa-download"></i> Downloads
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Downloads Page -->
+    <section class="downloads-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Downloads</h1>
+                <p>Free resources, templates, and educational materials for students, teachers, and fellow developers. All downloads are available at no cost.</p>
+            </div>
+
+            <!-- Programming Resources -->
+            <div class="download-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h2>Programming Resources</h2>
+                </div>
+                <div class="downloads-grid">
+                    <div class="download-item">
+                        <div class="download-header">
+                            <div class="file-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="download-info">
+                                <h3>QBASIC Programming Guide</h3>
+                                <span class="file-type">PDF</span>
+                            </div>
+                        </div>
+                        <p class="download-desc">Complete guide to QBASIC programming with examples and exercises</p>
+                        <div class="download-stats">
+                            <span>Size: 2.5 MB</span>
+                            <span>1250 downloads</span>
+                        </div>
+                        <button class="btn btn-primary download-btn" onclick="downloadFile('QBASIC Programming Guide')">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+
+                    <div class="download-item">
+                        <div class="download-header">
+                            <div class="file-icon">
+                                <i class="fas fa-file-archive"></i>
+                            </div>
+                            <div class="download-info">
+                                <h3>C Programming Examples</h3>
+                                <span class="file-type">ZIP</span>
+                            </div>
+                        </div>
+                        <p class="download-desc">Collection of C programming examples and solutions</p>
+                        <div class="download-stats">
+                            <span>Size: 5.2 MB</span>
+                            <span>980 downloads</span>
+                        </div>
+                        <button class="btn btn-primary download-btn" onclick="downloadFile('C Programming Examples')">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+
+                    <div class="download-item">
+                        <div class="download-header">
+                            <div class="file-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="download-info">
+                                <h3>Python Basics Handbook</h3>
+                                <span class="file-type">PDF</span>
+                            </div>
+                        </div>
+                        <p class="download-desc">Beginner-friendly Python programming handbook</p>
+                        <div class="download-stats">
+                            <span>Size: 3.8 MB</span>
+                            <span>2100 downloads</span>
+                        </div>
+                        <button class="btn btn-primary download-btn" onclick="downloadFile('Python Basics Handbook')">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Educational Materials -->
+            <div class="download-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h2>Educational Materials</h2>
+                </div>
+                <div class="downloads-grid">
+                    <div class="download-item">
+                        <div class="download-header">
+                            <div class="file-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="download-info">
+                                <h3>Computer Science Curriculum</h3>
+                                <span class="file-type">PDF</span>
+                            </div>
+                        </div>
+                        <p class="download-desc">Secondary level computer science teaching curriculum</p>
+                        <div class="download-stats">
+                            <span>Size: 4.1 MB</span>
+                            <span>650 downloads</span>
+                        </div>
+                        <button class="btn btn-primary download-btn" onclick="downloadFile('Computer Science Curriculum')">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+
+                    <div class="download-item">
+                        <div class="download-header">
+                            <div class="file-icon">
+                                <i class="fas fa-file-archive"></i>
+                            </div>
+                            <div class="download-info">
+                                <h3>Programming Logic Worksheets</h3>
+                                <span class="file-type">ZIP</span>
+                            </div>
+                        </div>
+                        <p class="download-desc">Printable worksheets for teaching programming concepts</p>
+                        <div class="download-stats">
+                            <span>Size: 8.5 MB</span>
+                            <span>890 downloads</span>
+                        </div>
+                        <button class="btn btn-primary download-btn" onclick="downloadFile('Programming Logic Worksheets')">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="download-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h2>Web Development</h2>
+                </div>
+                <div class="downloads-grid">
+                    <div class="download-item">
+                        <div class="download-header">
+                            <div class="file-icon">
+                                <i class="fas fa-file-archive"></i>
+                            </div>
+                            <div class="download-info">
+                                <h3>MERN Stack Starter Template</h3>
+                                <span class="file-type">ZIP</span>
+                            </div>
+                        </div>
+                        <p class="download-desc">Complete MERN stack project template with authentication</p>
+                        <div class="download-stats">
+                            <span>Size: 15.7 MB</span>
+                            <span>750 downloads</span>
+                        </div>
+                        <button class="btn btn-primary download-btn" onclick="downloadFile('MERN Stack Starter Template')">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+
+                    <div class="download-item">
+                        <div class="download-header">
+                            <div class="file-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="download-info">
+                                <h3>CSS Grid & Flexbox Guide</h3>
+                                <span class="file-type">PDF</span>
+                            </div>
+                        </div>
+                        <p class="download-desc">Comprehensive guide to modern CSS layout techniques</p>
+                        <div class="download-stats">
+                            <span>Size: 2.9 MB</span>
+                            <span>1350 downloads</span>
+                        </div>
+                        <button class="btn btn-primary download-btn" onclick="downloadFile('CSS Grid & Flexbox Guide')">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Usage Guidelines -->
+            <div class="usage-guidelines">
+                <h2>Usage Guidelines</h2>
+                <div class="guidelines-grid">
+                    <div class="guideline-section">
+                        <h3>Educational Use</h3>
+                        <ul>
+                            <li>Free for educational and non-commercial use</li>
+                            <li>Can be used in classrooms and training programs</li>
+                            <li>Attribution appreciated but not required</li>
+                            <li>Modify and adapt to your needs</li>
+                        </ul>
+                    </div>
+                    <div class="guideline-section">
+                        <h3>Commercial Use</h3>
+                        <ul>
+                            <li>Contact me for commercial licensing</li>
+                            <li>Custom materials available on request</li>
+                            <li>Bulk downloads for institutions</li>
+                            <li>Training and consultation services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custom Resources CTA -->
+            <div class="custom-resources-cta">
+                <h2>Need Custom Resources?</h2>
+                <p>Looking for specific educational materials, custom code examples, or tailored programming resources? I can create custom content for your needs.</p>
+                <a href="contact.html" class="btn btn-primary">Request Custom Resources</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Secondary Level Computer Science Teacher and MERN Full Stack Developer passionate about education and technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="downloads.html">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/gahadurga"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/durga-gaha-a459881b8/"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:durgarasmita143@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 All rights reserved | Durga Gaha</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
